@@ -130,7 +130,7 @@ public class ApplicationService {
             MimeMessage message = emailSender.createMimeMessage();
             MimeMessageHelper helper = new MimeMessageHelper(message, true, StandardCharsets.UTF_8.name()); // Habilitar multipart y UTF-8
 
-            helper.setFrom("oetm4682@coomeva.com.co");
+            helper.setFrom("impuestosfid@coomeva.com.co");
             helper.setTo(email);
             helper.setSubject("Certificados Tributarios Periodo " + anio);
             SimpleDateFormat dateFormat = new SimpleDateFormat("yyyyMMdd");
